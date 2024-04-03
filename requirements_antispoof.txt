@@ -1,0 +1,7 @@
+opencv-python-headless==4.6.0.66
+cmake==3.25.0
+python-multipart==0.0.5
+pytz==2022.7.1
+torch==2.2.1
+Pillow==10.2.0
+dlib-19.24.1-cp311-cp311-win_amd64.whl
