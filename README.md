@@ -36,7 +36,7 @@ Tech-Stack
 Setting up Anti Spoofing model -
 1. Visit " https://github.com/minivision-ai/Silent-Face-Anti-Spoofing/tree/master " and downwload the zip file of the github repository
 2. Download whl file for dlib according to your python version from this link https://github.com/z-mahmud22/Dlib_Windows_Python3.x
-3. Install all the dependencies from the requirements.txt file and the dlib file for antispoofing model and make sure in the terminal you are in the folder you downloaded from the githbu repository.
+3. Install all the dependencies from a separate requirements.txt file specially for antispoofing and the dlib file for antispoofing model and make sure in the terminal you are in the folder you downloaded from the github repository.
 4. Test the model by typing this in the terminal
    ```
    python test.py --image_name your_image_name
