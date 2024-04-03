@@ -1,0 +1,24 @@
+Project Flow
+
+For registration:
+1. Image capture - frontend
+2. Spoof check on the captured image - backend + anti-spoof model
+3. The user fills in the details in the form - frontend
+4. All the details are verified - backend
+5. Details are stored in the Database - SQL Database
+
+For Login:
+1. Image Capture - frontend
+2. Spoof check on the captured image - backend + Anti-spoof model
+3. If cleared, the image is recognized - backend + face recognition library
+4. The name and ID of the Individual are returned - face recognition library
+5. The name and ID are stored with the date and login time - backend + SQL database
+6. The User is logged in - frontend
+
+For Logout:
+1. Image Capture - frontend
+2. Spoof check on the captured image - backend + Anti-spoof model
+3. If cleared, the image is recognized - backend + face recognition library
+4. The name and ID of the Individual are returned - face recognition library
+5. The name and ID are stored with the date and logout time - backend + SQL database
+6. The User is logged out - frontend
