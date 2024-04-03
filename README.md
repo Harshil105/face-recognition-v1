@@ -1,4 +1,4 @@
-# face-recognition-v1
+# face-recognition-based login system
 Features 
 1. Facial Recognition-based Authentication
 2. Anti-Spoofing Detection
